@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>391</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>431</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>CAMERA</string>
+    </property>
+    <widget class="QLabel" name="lblCamera">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>411</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>341</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>THÔNG TIN</string>
+    </property>
+    <widget class="QTableWidget" name="tblThongTin">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>321</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>TỔNG SỐ</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SL NGUYÊN</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>SL VỠ</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
